@@ -3,7 +3,7 @@
     Audit your user share to identify potentially unneeded folders.
 
 .PARAMETER DeleteNoAccounts
-    Removes the user folders found with no Active Directory accounts accosiated to them.
+    Removes the user folders found with no Active Directory accounts associated to them.
     [OPTIONS] Move, Remove
 
 .PARAMETER DeleteOldAccounts
@@ -25,7 +25,7 @@
     [Default: The running users home directory]
 
 .PARAMETER saveFolder
-    The folder inwhich you would like to save output to. 
+    The folder in which you would like to save output to. 
     If not specfied, it will be logged to the console. 
 .PARAMETER Exclude
     Pass in any folder name seperated by a comma you would like to exclude.
